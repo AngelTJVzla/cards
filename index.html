@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gosta viajar?</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="div-container">
+        <img src="./img/viajar.png" class="bg-img" alt="">
+        <form autocomplete="off" id="form__">
+            <fieldset class="form__fieldset">
+                <span>Viaje conosco!</span>
+                <div class="inputs">
+                    <input type="text" class="titulo" placeholder="Aonde vamos?" maxlength="25" required>
+                    </p>
+                    <div>
+                        <input type="url" class="url" placeholder="URL desse lugar" required>
+                    </div>
+                    <div>
+                        <input id="preco" type="text" class="preco" placeholder="Quanto dinheiro você tem?" maxlength="15" required>
+                    </div>
+                    <div>
+                        <input type="text" class="descricao" placeholder="Descrição do lugar" maxlength="60"
+                            required>
+                    </div>
+                    <div>
+                        <input type="text" class="localizacao" placeholder="Onde fica esse lugar?" maxlength="25"
+                            required>
+                    </div>
+                    
+                    <button type="submit">vamos lá!</button>
+
+            </fieldset>
+        </form>
+
+        
+        <div class="container-resultado">
+            <div class="resultado">
+
+            </div>
+        </div>
+
+    </div>
+
+
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
